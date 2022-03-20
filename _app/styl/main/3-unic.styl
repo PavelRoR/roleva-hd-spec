@@ -1,8 +1,13 @@
 #unics
 	padding 100px 0
+	@media screen and (max-width 991px)
+		padding 50px 0
 .unics-list
 	margin-bottom: 160px
 	width 50%
+	@media screen and (max-width 991px)
+		width 100%
+		margin-bottom: 50px
 	li
 		list-style: none
 		margin-bottom: 35px
@@ -19,9 +24,25 @@
 			top -11px
 			left 0
 			z-index -1
+		@media screen and (max-width 386px)
+			padding-left: 0
+			margin-bottom: 20px
+			&:before
+				width 30px
+				height: 30px
+				top 0
+				left -12px
 .unics-img
 	position absolute
 	top 66px
 	right 0
 	z-index -1
 	width 50%
+	@media screen and (max-width 1199px)
+		right -100px
+	@media screen and (max-width 991px)
+		position: static
+		display block
+		width 100%
+		max-width 714px
+		margin 50px 0 0

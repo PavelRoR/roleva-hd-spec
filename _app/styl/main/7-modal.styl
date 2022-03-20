@@ -13,6 +13,7 @@
 	justify-content: center
 	@media screen and (max-width 560px)
 		padding 30px 20px 20px
+		min-height 360px
 	@media screen and (max-width 385px)
 		padding 30px 15px 15px
 .mfp-close
@@ -94,11 +95,6 @@ input:-internal-autofill-selected
 	max-width 420px
 	margin: 20px auto 0
 	text-align: left
-	&-main
-		@media screen and (max-width 991px)
-			margin-left: auto
-	@media screen and (max-width 560px)
-		max-width 390px
 @keyframes pulse
 	0%
 		box-shadow: 0 0 0 0 rgba(red, .12)
@@ -116,6 +112,8 @@ input:-internal-autofill-selected
 	font-size: 12px
 	font-weight: 300
 	color #4E4C4C
+	@media screen and (max-width 386px)
+		line-height: 18px
 .checking .check-label a
 	text-decoration: none
 	border-bottom: 1px dashed
