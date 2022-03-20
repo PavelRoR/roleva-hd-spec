@@ -17,6 +17,16 @@
 //- -var oferta = 'https://mastervision.su/oferta.docx'
 -var tk = true;
 -var ah = true;
+-var href= '#Modal';
+
+mixin b(cl, clb, href, p, target, id)
+	.button-wrapper(class=cl)
+		a.button(class=clb href!=href target=target id=id)=p
+mixin gt(cl, h3)
+	h3.general-title(class=cl)!=h3
+mixin imgs(cl, src, alt)
+	img(class=cl src=path+src alt=alt)
+
 
 doctype html
 html(lang="ru")
@@ -25,6 +35,16 @@ html(lang="ru")
 		include pug/scripts/head_scripts
 	body
 		include pug/scripts/body_top_scripts
+		.wrapper
+			include pug/base/1-header
+			include pug/main/1-main
+			include pug/main/2-reqs
+			include pug/main/3-unic
+			include pug/main/4-helps
+			include pug/main/5-why
+			include pug/main/6-author
+		include pug/base/2-footer
+		include pug/main/7-modal
 		include pug/base/3-scripts
 		//- include pug/scripts/chat
 		include pug/scripts/body_bottom_scripts
