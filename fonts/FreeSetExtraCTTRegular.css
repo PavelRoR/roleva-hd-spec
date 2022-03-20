@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'FreeSetExtraCTTRegular';
+    src: url('fonts/FreeSetExtraCTTRegular.eot');
+    src: url('fonts/FreeSetExtraCTTRegular.eot') format('embedded-opentype'),
+         url('fonts/FreeSetExtraCTTRegular.woff2') format('woff2'),
+         url('fonts/FreeSetExtraCTTRegular.woff') format('woff'),
+         url('fonts/FreeSetExtraCTTRegular.ttf') format('truetype'),
+         url('fonts/FreeSetExtraCTTRegular.svg#FreeSetExtraCTTRegular') format('svg');
+}
