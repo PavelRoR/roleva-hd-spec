@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="referrer" content="no-referrer-when-downgrade">
-    <meta property="og:url" content="https://roleva.iomp.online/hd-spec/promo/">
+    <meta property="og:url" content="https://roleva.mvacademy.ru/hd-spec/promo/">
     <meta property="og:title" content="Подпишитесь в Telegram">
     <title>Подпишитесь в Telegram</title>
     <link rel="icon" type="image/x-icon" href="../favicon.ico">
