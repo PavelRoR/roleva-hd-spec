@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<?php require_once('date/date.php');?><!DOCTYPE html>
 <html lang="ru">
   <head>
     <meta charset="UTF-8">
@@ -42,7 +42,7 @@
                 <h1 class="main-title">Как стать востребованным специалистом в области психологии  с помощью “Дизайна человека”?</h1>
                 <div class="main-info">
                   <p>Спикер: Анна Ролева</p>
-                  <p>Дата: 11:03:22</p>
+                  <p>Дата: <?= $dateDayText;?>:<?= $dateMonthText;?>:<?= $dateYearText;?></p>
                 </div>
                 <p class="main-text">Узнай на бесплатном мастер-классе</p>
                 <form class="form form-modal" action="https://shop.mv-centr.ru/?r=personal/newsletter/sub/add&id=25863&lg=ru&Contact[id_newsletter]=571" method="post" enctype="application/x-www-form-urlencoded" accept-charset="UTF-8">
