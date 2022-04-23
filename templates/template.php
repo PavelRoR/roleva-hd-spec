@@ -29,7 +29,7 @@
           <div class="content">
             <div class="row">
               <div class="col-md-8">
-                <h1 class="main-title">Как стать востребованным специалистом в области психологии  с помощью “Дизайна человека”?</h1>
+                <h1 class="main-title">Как стать востребованным специалистом в области психологии с&nbsp;помощью “Дизайна человека”?</h1>
                 <div class="main-info">
                   <p>Спикер: Анна Ролева</p>
                   <p>Дата: <?= $dateDayText;?>:<?= $dateMonthText;?>:<?= $dateYearText;?></p>
@@ -110,8 +110,8 @@
           <div class="row">
             <div class="col-md-5"><img class="helps-img" src="<?=$dPath;?>img/images/helps.png" alt="Как “Дизайн человека” поможет именно тебе?"/>
             </div>
-            <div class="col-md-7">
-              <ul class="general-list general-list-1">
+            <div class="col-md-6 col-md-offset-1">
+              <ul class="general-list general-list-1 general-list-helps">
                 <li>Сможешь понять себя и увидишь свой уникальный путь.</li>
                 <li>Поймешь причины поступков своих близких, их ценности и мотивации, найдешь возможности для выстраивания новых взаимоотношений.</li>
                 <li>Сможешь помогать людям, которые чувствуют что запутались и не могут найти выход в сложившейся ситуации.</li>

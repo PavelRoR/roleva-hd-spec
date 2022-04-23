@@ -38,8 +38,8 @@
         <div class="container">
           <div class="content">
             <div class="row">
-              <div class="col-md-8">
-                <h1 class="main-title">Как стать востребованным специалистом в области психологии  с помощью “Дизайна человека”?</h1>
+              <div class="col-md-6">
+                <h1 class="main-title">Как стать востребованным специалистом в области психологии с&nbsp;помощью “Дизайна человека”?</h1>
                 <div class="main-info">
                   <p>Спикер: Анна Ролева</p>
                   <p>Дата: <?= $dateDayText;?>:<?= $dateMonthText;?>:<?= $dateYearText;?></p>

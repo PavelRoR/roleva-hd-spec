@@ -26,7 +26,9 @@
           <div class="content">
             <div class="row">
               <div class="col-md-8">
-                <h1 class="main-title">Как стать востребованным специалистом в области психологии  с помощью “Дизайна человека”?</h1>
+                <h1 class="main-title">
+                <small>Обучающий курс</small>
+                Как стать востребованным специалистом в области психологии с&nbsp;помощью “Дизайна человека”?</h1>
                 <div class="main-info">
                   <p>Спикер: Анна Ролева</p>
                 </div>
@@ -68,14 +70,15 @@
           <div class="row">
             <div class="col-md-5"><img class="helps-img" src="../img/images/helps.png" alt="Как “Дизайн человека” поможет именно тебе?"/>
             </div>
-            <div class="col-md-7">
-              <ul class="general-list general-list-1">
+            <div class="col-md-6 col-md-offset-1">
+              <ul class="general-list general-list-1 general-list-helps">
                 <li>Сможешь понять себя и увидишь свой уникальный путь.</li>
                 <li>Поймешь причины поступков своих близких, их ценности и мотивации, найдешь возможности для выстраивания новых взаимоотношений.</li>
                 <li>Сможешь помогать людям, которые чувствуют что запутались и не могут найти выход в сложившейся ситуации.</li>
               </ul>
             </div>
           </div>
+          <br><br>
           <div class="button-wrapper button-wrapper-helps"><a class="button" href="#prices">Мне это нужно</a></div>
         </div>
       </section>
@@ -332,7 +335,7 @@
                   <li>онлайн 1 раз в 2 недели с ответами на вопросы</li>
                 </ul>
                 <div class="prepayment">
-                  <h5 class="prepayment-title">Акция не предусмотрена!</h5>
+                  <h5 class="prepayment-title prepayment-title-vip">Акция не предусмотрена!</h5>
                   <div class="button-wrapper"><a class="button" href="https://shop.mv-centr.ru/?r=ordering/cart/as1&id=1350&clean=true&lg=ru" target="_blank">Оплатить</a></div>
                 </div>
               </div>
@@ -374,6 +377,7 @@
     <?php require_once($dPath.'templates/footer/footer.php');?>
     <script src="../js/course-libs.min.js"></script>
     <script src="../js/course.js"></script>
+    <?php require_once($dPath.'templates/chats/chat.php');?>
     <?php require_once($path.'/body-bottom.php');?>
   </body>
 </html>
